@@ -33,7 +33,7 @@ zip_list = ["zip", "tar", "gz", "bz2", "xz", "7z", "rar"]
 
 for i in file_list:
     file_type = i.split(".")[-1]
-    file_location = sort_need + "\\" + i
+    file_location = sort_need + "/" + i
     if is_folder(file_location):
         continue
     if is_screenshot(i):
