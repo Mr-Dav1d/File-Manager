@@ -1,4 +1,4 @@
-# File-Manager
+# OVERVIEW
 This is a Python script that sorts files into various folders based on their file extension. The script will move files to specific folders such as documents, photos, videos, screenshots, compressed files, sound files, and others.
 
 # Prerequisites
