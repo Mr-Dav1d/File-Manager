@@ -34,18 +34,3 @@ Compressed Files: zip, tar, gz, bz2, xz, 7z, rar
 Sound Files: mp3, wav, flac, m4a, aac, ogg, wma
 Screenshots: files containing the word "Screenshot" in their name
 Others: files that don't fall into any of the above categories
-
-
-
-# Note
-If a folder for a specific file type already exists, the script will not create a new folder for that file type.
-
-If a file name contains more than one dot, the script will only consider the last part of the name as the file extension.
-
-If a file has a file extension that is not listed in any of the categories above, it will be moved to the "other" folder.
-
-The script will only move files that are in the specified directory and will not search for files in subdirectories.
-
-The script will overwrite any files with the same name in the destination folder.
-
-If the file is already in a folder, it will not be moved again.
